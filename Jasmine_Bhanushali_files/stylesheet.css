@@ -1,0 +1,108 @@
+body {
+font-family: 
+	"Source Sans Pro",
+    "Lato",
+    "Roboto",
+	"Ubuntu",
+	serif;
+margin-left: 14em;
+margin-right: 14em;
+}
+
+#me {
+  position: absolute;
+  top: 0.5em;
+  left: 15em;
+  z-index: -1; }
+
+#contact {
+  position: absolute;
+  top: 2.25em;
+  right: 14em; }
+
+#pgp {
+  position: absolute;
+  font-size: 0.625em;
+  top: 6.125em;
+  right: 0.5em; }
+
+.title {
+  text-align: left;
+  margin-left: 150px;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray; }
+
+#table-of-contents {
+  margin-left: 135px;
+  margin-top: 10px; }
+  #table-of-contents h2 {
+    display: none; }
+  #table-of-contents ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0; }
+  #text-table-of-contents ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0; }
+  #text-table-of-contents ul li { display:inline }
+  #text-table-of-contents ul li a { 
+    text-decoration: none;
+    padding: .2em 0.8em;
+  }
+
+
+
+#outline-container-publications li {
+  margin: 0.5em;
+/*  list-style-type: none;*/
+}
+
+#outline-container-experience li {
+  margin: 0.5em;
+/*  list-style-type: none;*/
+}
+
+h1, h2, h3, h4 {
+  font-weight: normal; }
+
+ul {
+	margin-left: 0;
+}
+#content {
+  color: #2e2e2e; }
+
+#outline-container-background {
+  padding-top: 30px; }
+
+.outline-text-3 {
+  margin-left: 2em; }
+
+h3 {
+  margin-left: 1em;
+  color: black;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray; }
+
+a {
+  text-decoration: none;
+  color: #4a708b; }
+
+a:hover {
+  text-decoration: underline; }
+
+.img-link a {
+  color: white; }
+
+blockquote {
+  border-left: 1px solid gray;
+  padding-left: 4px; }
+
+#doc-info {
+  margin-top: 3em;
+  margin: auto;
+  float: center;
+  text-align: center;
+  font-size: 9pt;
+  max-width: 75%; }
+
